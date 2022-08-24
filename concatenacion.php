@@ -9,9 +9,11 @@ function concatenar2Texto($texto)
 function concatenarNumyText($numero,$texto)
 {
     return "{$numero}{$texto}";
+    
 
 }
 concatenar2Texto(" a todos");
-concatenarNumyText(5, "cinco");
+echo "\n";
+echo concatenarNumyText(5, " cinco");
 
 ?>
