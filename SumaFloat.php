@@ -1,8 +1,15 @@
 <?php
-$num1=10.14;
-$num2=30.5;
-$resul= $num1+$num2;
-
-echo  "La suma de $num1 y $num2 es".$resul;
-
+function suma($number1, $number2)
+{
+    $result=$number1+$number2;
+    echo  "El resultado de la suma es:".$result;
+}
+function resta($number1, $number2)
+{
+    $result=$number1-$number2;
+    echo  "El resultado de la resta es:".$result;
+}
+sumar(25.5, 14.3); 
+echo "\n";
+resta(25.5, 14.3);
 ?>
