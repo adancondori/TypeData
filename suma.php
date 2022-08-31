@@ -6,7 +6,7 @@ $num2 = $y;
 $result = $x + $y;
 return $result;
 }
-print(sumadosnumeros (5, 6))
+print(sumadosnumeros (5, 6));
 function restadosnumeros($x, $y)
 {
     $num1 = $x;
